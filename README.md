@@ -29,7 +29,8 @@ Since API tracking was not feasible, the alternative approach involved **scrapin
 - It handles pagination by clicking "**Load More**" until all members are retrieved
 
 ### Challenges
-- Why "**Created At**" (Joining Date) Couldn't Be Extracted??
+Why "**Created At**" (Joining Date) Couldn't Be Extracted??
+
 The Created At field is internal metadata and is not displayed anywhere in the UI.
 Since scraping works by extracting visible elements from the DOM, this field remains inaccessible.
 

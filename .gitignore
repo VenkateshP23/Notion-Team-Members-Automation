@@ -1,0 +1,13 @@
+# Ignore Playwright session storage file
+notion_session.json
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and system files
+*.log
+.DS_Store  # macOS system file
+Thumbs.db  # Windows system file
